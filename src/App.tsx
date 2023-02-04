@@ -1,12 +1,13 @@
-import styled from 'styled-components'
+import { Header } from './components/Header/index'
 import { GlobalStyle } from './styles/global'
+
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Hello DTMoney - Ignite Application</h1>
+    <>
+      <Header />
       <GlobalStyle />
-    </div>
+    </>
   );
 }
 
