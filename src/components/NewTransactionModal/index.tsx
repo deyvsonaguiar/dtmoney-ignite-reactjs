@@ -35,8 +35,6 @@ export function NewTransactionModal(
 
     }
 
-    
-
     return (
         <Modal
         isOpen={isOpen}
